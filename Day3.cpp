@@ -2,7 +2,7 @@
 #include  <string>
 
 int main(){
-    //Learning C++ User Input
+     //Learning C++ User Input
 
     int x;
     std::cout << "Type a number";
@@ -43,8 +43,47 @@ int main(){
     auto harshit = "anything it can be";
     std::cout << harshit;
     std::cout << std::endl << std::endl << std::endl;
-    
+
     //End of Data Types
+    
+
+
+    //Learning Operators
+
+    /*Here is a list that might help
+    Operator    	        Description	                Example
+    +	Addition    	    Adds together two values	                x + y	
+    -	Subtraction 	    Subtracts one value from another	        x - y	
+    *	Multiplication  	Multiplies two values	                    x * y	
+    /	Division	        Divides one value by another	            x / y	
+    %	Modulus	            Returns the division remainder	            x % y	
+    ++	Increment	        Increases the value of a variable by 1  	++x	
+    --	Decrement	        Decreases the value of a variable by 1  	--x
+    */
+
+    std::cout << "Creating a number comparing tool \n";
+    int x,y;
+    std::cout << "Entery first no.- \n";
+    std::cin >> x;
+    std::cout << "Your first no. is " << x << ". \n Enter your secound no.- \n";
+    std::cin >> y;
+    std::cout << "Your secound number is " << y << ". \n";
+    std::cout << (x<y) << (x==y) << std::endl << "You will see 00 if your first number is greater than secound number,01 if both are equal and if secound no. is greater then you will see 11.\n";
+    std::cout << "Will be checking if both numbers are greater than 50. \n";
+    std::cout << (x>50 && y>50) << std::endl << "If check verified than above line would say 1 otherwise 0.";
+    // And-&&, Or-||, Reverse-!
+
+    //End of operator
+
+
+
+
+    
+    
+    
+    
+    
+    
 
 
 
