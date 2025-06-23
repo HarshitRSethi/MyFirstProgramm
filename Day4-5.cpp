@@ -3,6 +3,7 @@
 #include <cmath>
 
 int main () {
+    
 
     
     //Learning Strings
@@ -33,8 +34,6 @@ Escape character	Result	Description
 \\	                \	    Backslash      
 \n	                    New Line	
 \t	                    Tab                    */
-
-
 
 
 /*A new Day, Day NO. 5, will continue Strings for now*/
@@ -68,7 +67,17 @@ char greeting[] = "Hello";
     //Finished Learning C++ Maths
 
 
-    
+
+    //Learning Booleans
+    bool isHarshitGood = true;
+    std::cout << isHarshitGood << std::endl;
+    std::cout << "Enter first no.\n";
+    int p, q;
+    std::cin >> p;
+    std::cout << "Enter secound no.\n";
+    std::cin >> q;
+    std::cout << (p<q) << std::endl << (p==q) << std::endl << (p>=q);
+    //Completed Booleans
 
 
 
