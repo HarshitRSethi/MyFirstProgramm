@@ -1,8 +1,10 @@
 #include <iostream>
 #include <string>
+#include <cmath>
 
 int main () {
 
+    
     //Learning Strings
 std::cout << "Ok so first thing we try today is string concatennation. \n Type your Firstname \n";
 std::string firstname;
@@ -43,8 +45,30 @@ std::cin.ignore(); //This line has been learnt from chatgpt as it's important to
 std::getline (std::cin, name);
 std::cout << "Your fullname is " << name << std::endl;
 char greeting[] = "Hello";
+    //Completed String
 
 
+
+    //Learning C++ Maths
+    std::cout << "Let's start by choosing two numbers. \n";
+    int x,y;
+    std::cin >> x;
+    std::cout << "Very good. Your first no. is " << x << ". Now choose second no.\n";
+    std::cin >> y;
+    std::cout << "Your second no. is " << y << ".\n";
+    std::cout << "Now, the greater no. out of two given no. is " << std::max(x, y) << std::endl << "Now give me a third no.\n";
+    int z;
+    std::cin >> z;
+    std::cout << "Your third no. is " << z << ".\n";
+    std::cout << "The smallest of all given no. is " << std::min(std::min(x, y), z) << ".\n";
+    std::cout << "Also there is a thing called C-Math, it has to be included in head in order to use some features like, sqrt, round, log. \n For example right a decimaled no.\n";
+    double a;
+    std::cin >> a;
+    std::cout << "You wrote " << a << ". But after round off it becomes " << round(a) << ".\n";
+    //Finished Learning C++ Maths
+
+
+    
 
 
 
